@@ -1,0 +1,24 @@
+# LionSight-AUV Python Dependencies
+# Core ROS2 and Robotics
+rclpy>=3.3.0
+geometry-msgs
+sensor-msgs
+nav-msgs
+vision-msgs
+tf2-ros
+tf2-geometry-msgs
+
+# Computer Vision and AI
+opencv-python>=4.8.0
+numpy>=1.24.0
+torch>=2.1.0
+torchvision>=0.16.0
+ultralytics>=8.0.0  # YOLOv8/v11
+
+# Scientific Computing
+scipy>=1.11.0
+scikit-learn>=1.3.0
+
+# Utilities
+pyyaml>=6.0
+matplotlib>=3.7.0
